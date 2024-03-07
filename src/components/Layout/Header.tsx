@@ -77,7 +77,7 @@ const Header = () => {
       <div className="md:hidden block md:mt-3 mt-0">
         <div className="relative w-full mx-auto">
           <input
-            className="block font-normal w-full p-3 rounded-full bg-pantip-light focus:outline-none focus:ring-1 ring-[#53507d]"
+            className="block font-normal w-full p-3 rounded-full bg-pantip-light focus:outline-none focus:ring-1 ring-[#53507d] text-xl"
             placeholder="ค้นหาบน Pantip"
           />
 
