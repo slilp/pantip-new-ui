@@ -35,7 +35,7 @@ function PostCard({
       </div>
       <div className="p-4 flex flex-1 flex-col">
         <div className="flex justify-between mb-1 gap-2">
-          <p className="text-md font-bold flex-1">{title}</p>
+          <p className="text-lg md:text-sm font-bold flex-1">{title}</p>
           <div className="flex gap-1 text-pantip-placeholder text-xs">
             <img alt={title} src="/icon/comment.png" className="h-5 w-5" />
             <span> {comments}</span>
@@ -46,7 +46,7 @@ function PostCard({
             <span key={tag}>{tag}</span>
           ))}
         </div>
-        <div className="flex flex-1 items-end">
+        <div className="flex flex-1 items-end mt-3 md:mt-0">
           <p className=" text-[#9d9ac0] font-bold">{creater}</p>
         </div>
       </div>

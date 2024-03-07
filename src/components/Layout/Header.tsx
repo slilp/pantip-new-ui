@@ -83,7 +83,7 @@ const Header = () => {
 
           <button
             type="submit"
-            className="absolute end-2 top-1  bg-pantip-main hover:bg-[#53507d] focus:outline-none rounded-full px-3 py-3"
+            className="absolute end-2 top-2  bg-pantip-main hover:bg-[#53507d] focus:outline-none rounded-full px-3 py-3"
           >
             <svg
               className="w-3 h-3"
