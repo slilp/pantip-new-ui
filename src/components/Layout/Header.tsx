@@ -7,19 +7,19 @@ const Header = () => {
   const [userMenuOpen, setUserMenuOpen] = useState<boolean>(false);
 
   return (
-    <header className="px-4 md:px-10 pt-7 pb-4 mx-auto">
-      <div className="flex items-center justify-between">
+    <header className="px-4 md:px-10 pt-7 pb-4 mx-auto max-w-[1500px]">
+      <div className="items-center justify-between md:flex hidden">
         <Image alt="logo" src="/logo-pantip.png" height={70} width={70} />
-        <div className="flex-1 md:visible invisible">
+        <div className="flex-1">
           <div className="relative w-1/2 mx-auto">
             <input
-              className="block font-normal placeholder-white w-full p-3 rounded-full bg-[#44416f] focus:outline-none focus:ring-1 ring-[#53507d]"
+              className="block font-normal w-full p-3 rounded-full bg-pantip-light focus:outline-none focus:ring-1 ring-[#53507d]"
               placeholder="ค้นหาบน Pantip"
             />
 
             <button
               type="submit"
-              className="absolute end-2 top-1  bg-[#2d2a49] hover:bg-[#53507d] focus:outline-none rounded-full px-3 py-3"
+              className="absolute end-2 top-1  bg-pantip-main hover:bg-[#53507d] focus:outline-none rounded-full px-3 py-3"
             >
               <svg
                 className="w-3 h-3"
@@ -40,7 +40,7 @@ const Header = () => {
           </div>
         </div>
         <div className="flex items-center gap-2">
-          <button className="p-3 px-4 rounded-3xl hover:bg-[#44416f] flex gap-2 ">
+          <button className="p-3 px-4 rounded-3xl hover:bg-pantip-light flex gap-2 ">
             <Image alt="add" src="/icon/add.png" height={20} width={20} />
             ตั้งกระทู้
           </button>
@@ -74,16 +74,16 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="md:hidden block mt-3">
+      <div className="md:hidden block md:mt-3 mt-0">
         <div className="relative w-full mx-auto">
           <input
-            className="block font-normal w-full p-3 rounded-full bg-[#44416f] focus:outline-none focus:ring-1 ring-[#53507d]"
+            className="block font-normal w-full p-3 rounded-full bg-pantip-light focus:outline-none focus:ring-1 ring-[#53507d]"
             placeholder="ค้นหาบน Pantip"
           />
 
           <button
             type="submit"
-            className="absolute end-2 top-1  bg-[#2d2a49] hover:bg-[#53507d] focus:outline-none rounded-full px-3 py-3"
+            className="absolute end-2 top-1  bg-pantip-main hover:bg-[#53507d] focus:outline-none rounded-full px-3 py-3"
           >
             <svg
               className="w-3 h-3"

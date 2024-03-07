@@ -9,9 +9,9 @@ interface CategoryCardProps {
 function CategoryCard({ title, img }: CategoryCardProps) {
   return (
     <div>
-      <div className="border-b-2 border-transparent hover:border-gray-500 w-3/4 flex flex-col items-center justify-center gap-1 cursor-pointer text-center">
+      <div className="border-b-2 border-transparent min-w-20 h-full hover:border-gray-500 flex flex-auto flex-col items-center justify-center gap-1 cursor-pointer text-center">
         <Image alt={title} src={img} height={20} width={20} />
-        <p>{title}</p>
+        <span>{title}</span>
       </div>
     </div>
   );
