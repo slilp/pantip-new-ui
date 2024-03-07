@@ -3,8 +3,8 @@ import React from 'react';
 
 function Footer() {
   return (
-    <section className="max-w-[1500px] text-pantip-secondary text-sm">
-      <footer className="bg-pantip-main py-8 px-4 md:px-10 grid md:grid-cols-3 grid-cols-2 gap-4">
+    <section className="bg-pantip-main text-pantip-secondary text-sm">
+      <footer className="max-w-[1500px] mx-auto py-8 px-4 md:px-10 grid md:grid-cols-3 grid-cols-2 gap-4">
         <div className="order-1">
           <p className="text-yellow-400 font-bold mb-4">เว็บในเครือ</p>
           <div className="flex">
@@ -99,7 +99,7 @@ function Footer() {
         </div>
       </footer>
       <div className="border-b border-gray-500" />
-      <div className="bg-pantip-main py-8 px-4 md:px-10 grid grid-cols-2">
+      <div className="max-w-[1500px] mx-auto py-8 px-4 md:px-10 grid grid-cols-2">
         <span>© 2024 Pantip.com</span>
         <div className="flex justify-end gap-2">
           <span>ติดตาม</span>

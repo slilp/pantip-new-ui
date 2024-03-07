@@ -114,7 +114,7 @@ const posts = [
 function PostSection() {
   return (
     <div
-      className="px-4 md:px-10 mb-3 text-pantip-secondary max-w-[1500px]"
+      className="px-4 md:px-10 mb-3 text-pantip-secondary mx-auto max-w-[1500px]"
       style={{ minHeight: '70dvh' }}
     >
       <div className="grid gap-5  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">

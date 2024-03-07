@@ -23,10 +23,10 @@ function NavBar() {
       >
         <Header />
         <div className="border-b border-gray-500" />
-        <div className="px-4 md:px-10 mt-4 mb-2 md:mb-4 lg:block hidden max-w-[1500px]">
+        <div className="px-4 md:px-10 mt-4 mb-2 md:mb-4 lg:block hidden mx-auto max-w-[1500px]">
           <CategoryDesktop />
         </div>
-        <div className="px-4 md:px-10 mt-4 mb-2 md:mb-4 lg:hidden block max-w-[1500px]">
+        <div className="px-4 md:px-10 mt-4 mb-2 md:mb-4 lg:hidden block mx-auto max-w-[1500px]">
           <CategoryMobile />
         </div>
       </div>
